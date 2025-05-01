@@ -6,16 +6,18 @@
   <title>Untuk Reffa</title>
   <style>
     body {
-      background-color: #f8f4f0;
+      background-color: #f0f8ff; /* Warna pastel biru muda */
+      background-image: url('https://www.transparenttextures.com/patterns/pw-maze.png'); /* Pola latar belakang lucu */
+      background-size: cover;
       font-family: 'Segoe UI', sans-serif;
-      color: #333;
+      color: #5d4d77; /* Warna teks ungu pastel */
       padding: 40px;
       max-width: 800px;
       margin: auto;
     }
     h1 {
       text-align: center;
-      color: #b78c7e;
+      color: #b78c7e; /* Warna judul yang cerah */
     }
     p {
       line-height: 1.8;
@@ -26,6 +28,15 @@
       margin-top: 50px;
       color: #999;
       font-size: 14px;
+    }
+    /* Menambahkan animasi pada teks */
+    h1, p {
+      animation: fadeIn 2s ease-in-out;
+    }
+    /* Efek animasi */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
     }
   </style>
 </head>
